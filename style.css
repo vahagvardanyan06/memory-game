@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: rgb(97, 97, 237) ;
+     /* rgb(221, 147, 8) */
+}
+
+.startGame{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    columns: row;
+
+}
+
+p{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    color:  rgb(18, 18, 58);
+}
+
+.start{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(18, 18, 58);
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.myNumber{
+
+    width: 400px;
+    height: 50px;
+    margin-bottom:10px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    background-color:  rgb(18, 18, 58);
+    border-radius: 10px;
+}
+
+.myNumber::placeholder{
+
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.gameSkeleton{
+
+    display: flex;
+     /* flex-direction: row;  */
+    justify-content: center;
+    align-items: center;
+    /* columns: row; */
+
+}
+
+
+.emptyDiv{
+
+    background-color: rgb(18, 18, 58);
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.animal{
+
+    height: 150px;
+    width: 150px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.timer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
